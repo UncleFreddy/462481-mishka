@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body class="page_body">
+    <header class="page__header">
+      <div class="header__wrap">
+        <a href="#" class="header__logo_link">
+          <img src="http://placehold.it/86x35" alt="Мишка" class="header__logo_img" width="86" height="35">
+        </a>
+        <nav class="main_nav">
+          <a href="#" class="header__droplist_button">Меню</a>
+          <ul class="header__site_menu">
+            <li class="header__item">
+              <a href="#" class="header__link">Каталог товаров</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Вязание на заказ</a>
+            </li>
+          </ul>
+          <ul class="header__user_menu">
+            <li class="header__item">
+              <a href="#" class="header__link">Поиск по сайту</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Корзина: пока пуста</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page__main">
+      <section class="catalog">
+        <h1 class="catalog__title">Каталог товаров</h1>
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <img src="http://placehold.it/260x195" alt="" class="catalog__img" width="260" height="195">
+            <h3 class="catalog__subtitle">Зайчик-попрыгайчик</h3>
+            <span class="catalog__spec">Рост 30 см, вес 200 г</span>
+            <span class="catalog__price">1 200 руб.</span>
+            <a href="#" class="catalog__cart">
+              <img src="http://placehold.it/21x19" alt="" class="catalog__icon" width="21" height="19">
+            </a>
+          </li>
+          <li class="catalog__item">
+            <img src="http://placehold.it/260x195" alt="" class="catalog__img" width="260" height="195">
+            <h3 class="catalog__subtitle">Корзинка для белья</h3>
+            <span class="catalog__spec">Корзинка для белья</span>
+            <span class="catalog__price">690 руб.</span>
+            <a href="#" class="catalog__cart">
+              <img src="http://placehold.it/21x19" alt="" class="catalog__icon" width="21" height="19">
+            </a>
+          </li>
+          <li class="catalog__item">
+            <img src="http://placehold.it/260x195" alt="" class="catalog__img" width="260" height="195">
+            <h3 class="catalog__subtitle">Большая корзинка для игрушек</h3>
+            <span class="catalog__spec">Диаметр 30 см, высота 30 см</span>
+            <span class="catalog__price">1 500 руб.</span>
+            <a href="#" class="catalog__cart">
+              <img src="http://placehold.it/21x19" alt="" class="catalog__icon" width="21" height="19">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="industry">
+        <div class="industry__wrap">
+          <h2 class="industry__title">Процесс производства</h2>
+          <img src="http://placehold.it/260x150" alt="Процесс производства" class="industry__img" width="260" height="150">
+          <p class="industry__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <a href="#" class="industry__link">СДелать заказ</a>
+        </div>
+      </section>
+    </main>
+    <footer class="page__footer">
+      <div class="footer__wrap">
+        <div class="footer__social">
+          <img src="http://placehold.it/22x21" alt="Instagram" class="social__img" width="22" height="21">
+          <img src="http://placehold.it/15x29" alt="Facebook" class="social__img" width="15" height="29">
+          <img src="http://placehold.it/24x20" alt="Twitter" class="social__img" width="24" height="20">
+        </div>
+        <span class="footer__text">Разработано</span>
+        <img src="http://placehold.it/50x50" alt="HTMLAcademy" class="footer__img">
+      </div>
+    </footer>
+    <section class="modal">
+      <div class="modal__wrap">
+        <h2 class="modal__title">Добавить в корзину</h2>
+        <span class="modal__text">Выберите размер:</span>
+        <form action="#" class="modal__form" method="post">
+          <input type="radio" class="modal__input" id="size_s" name="size">
+          <label for="size_s" class="modal__label">S</label>
+          <input type="radio" class="modal__input" id="size_m" name="size">
+          <label for="size_m" class="modal__label">M</label>
+          <input type="radio" class="modal__input" id="size_l" name="size">
+          <label for="size_l" class="modal__label">L</label>
+          <button type="submit" class="modal__button">Добавить</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
