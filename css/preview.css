@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.preview__wrap {
+  margin-top: 35px;
+  height: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 9.375%; }
+
+.preview__title {
+  font-size: 25px;
+  line-height: 30px;
+  /* не забудь сделать ТОВАР НЕДЕЛИ */
+  font-weight: bold; }
+
+.preview__specs {
+  margin-top: 60px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 205px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.preview__spec {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec; }
+
+.preview__cart {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 440px; }
+
+.preview__price {
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold; }
+
+.preview__order {
+  padding: 15px 80px; }

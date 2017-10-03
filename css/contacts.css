@@ -1,0 +1,55 @@
+.contacts {
+  margin-top: 95px; }
+
+.contacts__wrap {
+  min-height: 813px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.contacts__title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0 9.375%; }
+
+.contacts__adress,
+.contacts__email {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #444444;
+  padding: 0 9.375%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contackts__date {
+  margin-left: 11.53846153846154%; }
+
+.contacts__mail {
+  color: #444444;
+  text-decoration: none;
+  border-bottom: 1px solid #62d1ba; }
+  .contacts__mail:hover {
+    color: #46c1ae;
+    border-color: #46c1ae; }
+  .contacts__mail:active {
+    color: rgba(70, 193, 174, 0.3);
+    border-color: #ecf9f7; }
+
+.contacts__img {
+  width: 100%;
+  margin: 0 auto; }
+
+.contacts__write_us {
+  margin: 0 9.375%;
+  padding: 15px 50px;
+  text-align: center; }
