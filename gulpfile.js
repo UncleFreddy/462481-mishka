@@ -8,7 +8,7 @@ var autoprefixer = require("autoprefixer");
 var server = require("browser-sync").create();
 
 gulp.task("style", function() {
-  gulp.src("sass/style.scss")
+  gulp.src("sass/*.scss")
     .pipe(plumber())
     .pipe(sass())
     .pipe(postcss([
