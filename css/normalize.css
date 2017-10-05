@@ -14,17 +14,18 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 ol, ul, p {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* Sections
@@ -41,7 +42,6 @@ header,
 nav,
 section {
   display: block;
-  box-sizing: border-box;
 }
 
 /**
@@ -52,12 +52,10 @@ section {
 h1 {
   font-size: 2em;
   margin: 0;
-  box-sizing: border-box;
 }
 h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* Grouping content
@@ -72,7 +70,6 @@ figcaption,
 figure,
 main { /* 1 */
   display: block;
-  box-sizing: border-box;
 }
 
 /**
@@ -117,7 +114,6 @@ pre {
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
-  box-sizing: border-box;
 }
 
 /**
@@ -139,7 +135,6 @@ abbr[title] {
 b,
 strong {
   font-weight: inherit;
-  box-sizing: border-box;
 }
 
 /**
@@ -236,7 +231,6 @@ audio:not([controls]) {
 
 img {
   border-style: none;
-  box-sizing: border-box;
 }
 
 /**
@@ -260,7 +254,6 @@ optgroup,
 select,
 textarea {
   margin: 0;
-  box-sizing: border-box;
 }
 
 /**
@@ -327,14 +320,12 @@ button:-moz-focusring,
  */
 
 legend {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; /* 1 */
+  -webk /* 1 */
   color: inherit; /* 2 */
   display: block; /* 1 */
   max-width: 100%; /* 1 */
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
-  box-sizing: border-box;
 }
 
 /**
@@ -362,8 +353,7 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; /* 1 */
+  -webk /* 1 */
   padding: 0; /* 2 */
 }
 
