@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .preview__wrap {
   margin-top: 35px;
   height: 820px;
@@ -15,13 +14,18 @@
   padding: 0 9.375%; }
 
 .preview__title {
+  position: relative;
+  top: -8px;
+  left: -5px;
   font-size: 25px;
   line-height: 30px;
-  /* не забудь сделать ТОВАР НЕДЕЛИ */
   font-weight: bold; }
 
+.preview__text {
+  margin-bottom: 15px; }
+
 .preview__specs {
-  margin-top: 60px;
+  margin-top: 15px;
   font-size: 15px;
   line-height: 24px;
   font-weight: normal;
@@ -38,8 +42,16 @@
           justify-content: space-between; }
 
 .preview__spec {
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   border-bottom: 1px solid #ececec; }
+
+.preview__spec_title {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 70px; }
+
+.preview__spec_description {
+  margin-left: 25px; }
 
 .preview__cart {
   margin-top: 30px;
@@ -56,6 +68,7 @@
   min-height: 440px; }
 
 .preview__price {
+  margin-top: 4px;
   -ms-flex-item-align: center;
       align-self: center;
   font-size: 17px;
@@ -63,4 +76,6 @@
   font-weight: bold; }
 
 .preview__order {
+  position: relative;
+  top: 4px;
   padding: 15px 80px; }

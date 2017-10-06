@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .week::after {
-  margin-top: 10px;
+  margin-top: 6px;
   display: block;
   content: 'ТОВАР НЕДЕЛИ';
   font-size: 17px;
