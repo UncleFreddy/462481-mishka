@@ -25,11 +25,9 @@
 
 .footer__social_icon {
   fill: #221f1f;
-  
   &:hover {
     fill: #46c1ae;
   }
-  
   &:active {
     fill: #46c1ae;
     fill-opacity: 0.3;
@@ -62,15 +60,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   &:active .footer__text {
     color: rgba(#000000, 0.3);
   }
-
   &:hover .footer__html_icon {
     fill: #46c1ae;
   }
-  
   &:active .footer__html_icon {
     fill-opacity: 0.3;
   }
