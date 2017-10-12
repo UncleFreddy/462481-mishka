@@ -1,35 +1,40 @@
 .modal {
+  position: fixed;
+  top: 500px;
+  left: 0;
+  width: 320px;
+  background-color: #ffffff;
   border-top: 1px solid #c7c7c7;
   box-shadow: 0 5px 20px 0 rgba(#000000, 0.25);
   display: none;
 }
 .modal__wrap {
-  padding: 0 30px;
   min-height: 336px;
-  width: 100%;
+  width: 260px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   box-sizing: border-box;
 }
 .modal__title {
-  margin-top: 25px;
   width: 160px;
   font-size: 25px;
   font-weight: bold;
   line-height: 30px;
   text-transform: uppercase;
-  align-text: center;
-  margin-top: 30px;
+  margin-top: 31px;
+  margin-left: 60px;
 }
 .modal__text {
   font-size: 15px;
   font-weight: normal;
   line-height: 30px;
   color: #444444;
+  margin-left: 63px;
+  margin-top: 10px;
 }
 .modal__form {
-  margin-top: 30px;
+  margin-top: 42px;
   min-height: 135px;
   display: flex;
   flex-direction: column;
@@ -55,7 +60,7 @@
   line-height: 16px;
   color: #444444;
   border: 2px solid #ececec;
-  padding: 15px 32px;
+  padding: 13px 34px;
 
   &:hover {
     border-color: #c7c7c7;
@@ -66,7 +71,8 @@
 
 }
 .modal__button {
-  margin-top: 30px;
+  position: relative;
+  top: -18px;
   padding: 15px 80px;
   border: 0;
   background-color: #63d1bb;
