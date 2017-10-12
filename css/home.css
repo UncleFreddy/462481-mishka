@@ -6,7 +6,8 @@
   width: 100%;
   min-height: 488px;
   background-size: 182%;
-  background: url("../img/hero-mobile@1x.jpg") no-repeat 46.5% -17px;
+  background-repeat: no-repeat;
+  background-image: url("../img/hero-mobile@1x.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,12 +129,9 @@
       -webkit-transform: translateY(-5px);
               transform: translateY(-5px);
       height: 130px;
-      border-radius: 5.5%;
-      /*box-shadow: 0 15px 20px -10px #75625b;
-      z-index: 1;*/ }
+      border-radius: 5.5%; }
   .home__link {
     height: 100%;
-    padding: 0 0 10px 10.77844311377246%;
     width: 100%;
     margin: 0 auto;
     -webkit-box-pack: initial;
@@ -178,11 +176,7 @@
     width: 1050px;
     margin: 0 auto;
     background-size: 100%;
-    background-position: 50% -15px;
-    /* background-image: url('../img/wave.png');
-    background-size: 25px 10px;
-    background-position: bottom left;
-    background-repeat: repeat-x; */ }
+    background-position: 50% -15px; }
   .main__title {
     font-size: 53px;
     line-height: 57px;

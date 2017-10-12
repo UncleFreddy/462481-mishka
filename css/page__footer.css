@@ -98,7 +98,7 @@
     padding: 0;
     width: 668px;
     margin: 0 auto;
-    min-height: auto;
+    min-height: initial;
     height: 143px; }
   .footer__logo_wrap {
     display: initial;

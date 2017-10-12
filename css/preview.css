@@ -93,11 +93,7 @@
 
 @media screen and (min-width: 768px) {
   .preview {
-    margin-top: 30px;
-    /* background-image: radial-gradient(15px 20px at 20px 20px,#000 0, #000 15px, transparent 10px);
-    background-size: 40px 10px;
-    background-position: -40px left;
-    background-repeat: no-repeat; */ }
+    margin-top: 30px; }
   .preview__wrap {
     padding: 0;
     -webkit-box-orient: horizontal;

@@ -48,12 +48,16 @@
     opacity: 0.3; }
 
 .reviews__left {
-  background-size: 50 26.003;
-  background: url(../img/icon-left-arrow.svg) no-repeat center center; }
+  background-size: 50px 26.003px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/icon-left-arrow.svg"); }
 
 .reviews__right {
-  background-size: 50 26.003;
-  background: url(../img/icon-right-arrow.svg) no-repeat center center; }
+  background-size: 50px 26.003px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/icon-right-arrow.svg"); }
 
 .reviews__write {
   display: block;

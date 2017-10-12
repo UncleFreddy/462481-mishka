@@ -68,7 +68,7 @@
     position: relative; }
     .contacts__wrap::before {
       position: absolute;
-      content: '';
+      content: "";
       width: 47px;
       height: 82px;
       top: -15px;
@@ -105,7 +105,7 @@
             transform: scale(1.105);
     height: 410px;
     overflow: hidden; }
-  contacts__img {
+  .contacts__img {
     width: 768px;
     max-height: 455px; }
   .contacts__write_us {
@@ -165,7 +165,7 @@
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1; }
-  contacts__img {
+  .contacts__img {
     width: 525px;
     max-height: 460px; }
   .contacts__write_us {
