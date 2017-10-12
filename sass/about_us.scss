@@ -1,21 +1,24 @@
 .about_us {
   width: 100%;
 }
+
 .about_us__wrap {
   width: 260px;
   margin: 0 auto;
   position: relative;
-
 }
+
 .about_us__title {
   font-size: 25px;
   line-height: 30px;
   font-weight: bold;
 }
+
 .about_us__list {
   margin-top: 30px;
   list-style: none;
 }
+
 .about_us__item {
   min-height: 95px;
   font-size: 17px;
@@ -26,31 +29,35 @@
   padding-top: 55px;
   margin-top: 28px;
 
-
   &_eco {
     background-image: url("../img/icon-feature-flower.svg");
     background-size: 33px 38px;
     background-position: 3% 0%;
   }
+
   &_price {
     background-image: url("../img/icon-feature-money.svg");
     background-size: 47px 27px;
   }
+
   &_like {
     background-image: url("../img/icon-feature-heart.svg");
     background-size: 34px 27px;
     background-position: 3% 9%;
   }
+
   &_hand {
     background-image: url("../img/icon-feature-ball.svg");
     background-size: 35px 34px;
     background-position: 2% 5%;
   }
+
   &_support {
     background-image: url("../img/icon-feature-rocket.svg");
     background-size: 55px 23px;
     background-position: 0 5%;
   }
+
   &_bag {
     background-image: url("../img/icon-feature-gift.svg");
     background-size: 33px 32px;
@@ -62,15 +69,18 @@
   .about_us {
     margin-top: -27px;
   }
+
   .about_us__wrap {
     width: 668px;
     margin: 0 auto;
     padding: 0;
   }
+
   .about_us__title {
     font-size: 43px;
     line-height: 50px;
   }
+
   .about_us__list {
     margin-top: 22px;
     list-style: none;
@@ -78,6 +88,7 @@
     flex-wrap: wrap;
     width: 668px;
   }
+
   .about_us__item {
     min-height: 95px;
     font-size: 20px;
@@ -92,47 +103,57 @@
     &_eco {
       order: 1;
     }
+
     &_price {
       margin-top: 56px;
       order: 3;
     }
+
     &_like {
       margin-top: 56px;
       background-position: 2% 10%;
       order: 5;
     }
+
     &_hand {
       order: 2;
     }
+
     &_support {
       margin-top: 56px;
       background-position: 0 5%;
       order: 4;
     }
+
     &_bag {
       margin-top: 56px;
       order: 6;
     }
   }
 }
+
 @media screen and (min-width: 1250px) {
   .about_us {
     margin-top: 205px;
   }
+
   .about_us__wrap {
     width: 668px;
     margin: 0 auto;
     padding: 0;
   }
+
   .about_us__title {
     font-size: 53px;
     line-height: 57px;
   }
+
   .about_us__list {
     margin-top: 17px;
     width: 700px;
     margin-left: -7px;
   }
+
   .about_us__item {
     width: 350px;
     margin-left: 0;
