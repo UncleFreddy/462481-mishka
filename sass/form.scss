@@ -1,12 +1,14 @@
 .form {
   padding: 0 30px;
 }
+
 .main__title_wrap {
   background-color: #f1f1f1;
   height: 176px;
   display: flex;
   align-items: center;
 }
+
 .page__text {
   padding: 0 30px;
   margin-top: 30px;
@@ -14,31 +16,37 @@
   font-size: 13px;
   line-height: 24px;
 }
+
 .form__form {
   margin-top: 30px;
 }
+
 .form__fieldset_type {
   margin-top: 35px;
 }
+
 .form__fieldset_color {
   margin-top: 40px;
 }
+
 .form__fieldset_name {
   margin-top: 45px;
 }
+
 .form__fieldset_tel,
 .form__fieldset_mail,
 .form__fieldset_textarea {
   margin-top: 35px;
 }
+
 .form__fieldset {
   border: 0;
   position: relative;
   display: flex;
 
-  &:before {
+  &::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     right: 0;
     width: 200px;
@@ -46,27 +54,26 @@
     background-color: #62d1ba;
   }
 }
+
 .form__legend {
   font-weight: bold;
   font-size: 17px;
   line-height: 16px;
   color: #63d1bb;
 }
+
 .form__input {
   display: none;
+}
 
-}
-.form__input_name {
-  border-bottom: 2px solid #000000;
-}
 .form__label_radio {
-position: relative;
-margin-top: 40px;
-padding-left: 63px;
+  position: relative;
+  margin-top: 40px;
+  padding-left: 63px;
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     width: 40px;
@@ -76,10 +83,11 @@ padding-left: 63px;
     box-sizing: border-box;
   }
 }
-.form__input_radio:checked + .form__label_radio{
+
+.form__input_radio:checked + .form__label_radio {
   &::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 12px;
     left: 12px;
     width: 16px;
@@ -89,6 +97,7 @@ padding-left: 63px;
     box-sizing: border-box;
   }
 }
+
 .form__label_checkbox {
   position: relative;
   margin-top: 45px;
@@ -96,7 +105,7 @@ padding-left: 63px;
 
   &::before {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     width: 40px;
@@ -105,10 +114,11 @@ padding-left: 63px;
     box-sizing: border-box;
   }
 }
-.form__input_checkbox:checked + .form__label_checkbox{
+
+.form__input_checkbox:checked + .form__label_checkbox {
   &::after {
     position: absolute;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
     width: 40px;
@@ -119,6 +129,7 @@ padding-left: 63px;
     box-sizing: border-box;
   }
 }
+
 .form__label {
   font-size: 17px;
   line-height: 18px;
@@ -133,7 +144,10 @@ padding-left: 63px;
     opacity: 0.3;
   }
 }
+
 .form__input_name {
+  width: 100%;
+  padding: 0;
   border: 0;
   border-bottom: 2px solid #000000;
   padding-left: 63px;
@@ -143,27 +157,24 @@ padding-left: 63px;
   &:focus {
     border-color: #62d1ba;
   }
+
   &:hover + .form__icon {
     fill: #62d1ba;
   }
+
   &:active + .form__icon {
     fill: #62d1ba;
   }
+
   &:focus + .form__icon {
     fill: #62d1ba;
   }
 }
-.form__label_date {
 
-}
 .form__icon {
   position: absolute;
   top: 0;
   right: 0;
-}
-.form__input_name {
-  padding: 0;
-  width: 100%;
 }
 
 .form__input_name::placeholder {
@@ -172,15 +183,18 @@ padding-left: 63px;
   line-height: 18px;
   color: rgba(#000000, 0.3);
 }
+
 .form__textarea {
   border: 2px solid #444444;
 }
+
 .form__requaried {
   margin-top: 15px;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
 }
+
 .form__submit {
   margin-top: 30px;
   padding: 15px 45px;
