@@ -1,8 +1,0 @@
-.visually_hidden {
-  display: block;
-  font-size: 0;
-  position: fixed;
-  top: -1px;
-  left: -1px;
-  width: 0;
-  height: 0; }
