@@ -19,7 +19,7 @@
 
 .footer__social {
   margin: 0 auto;
-  width: 165px;
+  width: 142px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,8 +76,9 @@
     fill-opacity: 0.3; }
 
 .footer__html_icon {
-  width: 27px;
-  height: 34px;
+  margin-left: 20px;
+  width: 40px;
+  height: auto;
   fill: #63d1bb; }
 
 .footer__logo_wrap {

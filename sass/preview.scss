@@ -11,6 +11,7 @@
 .preview__title {
   position: relative;
   top: -8px;
+  left: -5px;
   font-size: 25px;
   line-height: 30px;
   font-weight: bold;
@@ -21,6 +22,7 @@
 }
 
 .preview__specs {
+  position: relative;
   margin-top: 15px;
   font-size: 15px;
   line-height: 24px;
@@ -29,6 +31,7 @@
   flex-direction: column;
   min-height: 205px;
   justify-content: space-between;
+  left: -5px;
 }
 
 .preview__spec {

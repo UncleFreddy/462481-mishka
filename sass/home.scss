@@ -8,6 +8,7 @@
   min-height: 488px;
   background-size: 182%;
   background-repeat: no-repeat;
+  background-position: center -15px;
   background-image: url("../img/hero-mobile@1x.jpg");
   display: flex;
   justify-content: space-between;
@@ -17,7 +18,6 @@
 .main__title {
   position: relative;
   top: 70px;
-  left: 7px;
   font-size: 27px;
   line-height: 30px;
   width: 300px;
@@ -57,8 +57,6 @@
   background-color: #56c3b2;
 
   .home__img {
-    position: relative;
-    left: -4%;
     opacity: 0.3;
   }
 }
@@ -84,7 +82,7 @@
 
 .home__img {
   position: relative;
-  left: -6%;
+  left: -10%;
   opacity: 0.3;
 }
 
@@ -100,11 +98,13 @@
 
   .home__wrap {
     min-height: 755px;
-    background-size: 160%;
+    background-image: url("../img/hero-tablet@1x.jpg");
+    background-size: 172%;
     background-position: 50% 0;
     width: 668px;
     margin: 0 auto;
     position: relative;
+    background-color: #fafafa;
   }
 
   .main__title {
@@ -113,7 +113,6 @@
     width: auto;
     margin-top: 18px;
     position: relative;
-    left: 5px;
     top: 135px;
   }
 
@@ -123,10 +122,7 @@
     flex-wrap: nowrap;
     height: 130px;
     min-width: 668px;
-    width: calc(100% - 100px);
-    align-self: center;
-    position: relative;
-    left: 10px;
+    margin: 0 auto;
     z-index: 1;
   }
 
@@ -147,7 +143,6 @@
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    justify-content: initial;
     padding: 0 11.97604790419162%;
 
     &:hover .home__text {
@@ -162,13 +157,14 @@
   .home__text {
     position: relative;
     top: -5px;
+    left: -5px;
     font-size: 20px;
     line-height: 30px;
     transition: 0.7s;
   }
 
   .home__img {
-    margin-left: 31%;
+    margin-left: 51%;
     transition: 0.7s;
   }
 

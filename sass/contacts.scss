@@ -188,6 +188,7 @@
   }
 
   .contacts__img_wrap {
+    position: relative;
     margin-top: -423px;
     margin-left: 357px;
     transform: scale(1);
@@ -195,11 +196,25 @@
     height: 457px;
     overflow: hidden;
     order: 1;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-image: url("../img/icon-map-pin.svg");
+      background-position: center center;
+      background-size: auto auto;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
+      width: 66px;
+      height: 100.801px;
+    }
   }
 
   .contacts__img {
     width: 525px;
     max-height: 460px;
+    position: relative;
   }
 
   .contacts__write_us {
