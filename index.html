@@ -12,7 +12,11 @@
       <div class="header__wrap">
         <nav class="main_nav">
           <a class="header__logo_link">
-            <img src="img/logo-mobile.svg" alt="Мишка" class="header__logo_img" width="86" height="35">
+            <picture class="header__picture">
+              <source media="(min-width: 1250px)" srcset="img/logo-desktop.svg">
+              <source media="(min-width: 678px)" srcset="img/logo-tablet.svg">
+              <img src="img/logo-mobile.svg" alt="Мишка" class="header__logo_img" width="86" height="35">
+            </picture>
           </a>
           <input type="checkbox" class="header__input" name="menu" id="droplist">
           <label class="header__label" for="droplist">
@@ -37,7 +41,7 @@
             <li class="header__item_search header__top">
               <a href="#" class="header__link header__link_search">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17.6px" height="17.6px" viewBox="-0.8 -0.8 17.6 17.6"><path class="header__item_icon" fill="#000000" fill-opacity="0.2"  d="M16.47,14.93l-3.415-3.415C14.02,10.226,14.6,8.634,14.6,6.899c0-4.253-3.447-7.699-7.7-7.699 S-0.8,2.646-0.8,6.899s3.446,7.7,7.699,7.7c1.734,0,3.326-0.58,4.613-1.546l3.417,3.416c0.203,0.202,0.418,0.33,0.771,0.33 c0.607,0,1.1-0.492,1.1-1.1C16.8,15.459,16.739,15.2,16.47,14.93z M1.399,6.899c0-3.038,2.462-5.5,5.5-5.5s5.5,2.462,5.5,5.5 s-2.462,5.5-5.5,5.5S1.399,9.938,1.399,6.899z"/></svg>
-                Поиск по сайту
+                <span class="header__link_span">Поиск по сайту</span>
               </a>
             </li>
             <li class="header__item_cart header__top">
@@ -93,7 +97,11 @@
             </div>
           </div>
           <div class="preview__cart">
-            <img class="preview__img" src="img/triple-set-mobile@1x.jpg" alt="Вязаные корзинки" width="260" height="315">
+            <picture class="preview__picture">
+              <source media="(min-width: 1250px)" srcset="img/triple-set-desktop@1x.jpg 1x, img/triple-set-desktop@2x.jpg 2x">
+              <source media="(min-width: 678px)" srcset="img/triple-set-tablet@1x.jpg 1x, img/triple-set-tablet@2x.jpg 2x">
+              <img class="preview__img" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg 2x" alt="Вязаные корзинки" width="260" height="315">
+            </picture>
           </div>
           <div class="preview__coast">
             <span class="preview__price">Цена: 990 руб.</span>
