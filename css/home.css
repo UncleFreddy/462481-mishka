@@ -83,10 +83,10 @@
 
 @media screen and (min-width: 768px) {
   .page__main {
-    position: relative;
-    top: -65px; }
-  .home {
     position: relative; }
+  .home {
+    position: relative;
+    width: 100vw; }
   .home__wrap {
     background-image: url("../img/hero-tablet@1x.jpg");
     background-size: 172%;
@@ -160,17 +160,18 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 25px;
     background-image: url("../img/bg-zigzag-fill.svg");
-    background-size: 100% 34px;
+    background-size: 1250px 34px cover;
     background-position: -5px left;
+    background-repeat: repeat-x;
     z-index: 1; } }
 
 @media screen and (min-width: 1250px) {
   .page__main {
     position: relative;
-    top: -42px; }
+    width: 100%; }
   .home {
     width: 100%;
     margin: 0 auto; }
