@@ -19,7 +19,7 @@
   display: -ms-flexbox;
   display: flex; }
 
-.contackts__date {
+.contacts__date {
   margin-left: 11.53846153846154%; }
 
 .contacts__mail {
@@ -34,14 +34,28 @@
     border-color: #ecf9f7; }
 
 .contacts__img {
+  width: 320px;
   height: auto;
-  width: 100%;
-  min-width: 300px;
   overflow: hidden;
   margin: 0 auto; }
 
 .contacts__img_wrap {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
   margin-top: 40px; }
+  .contacts__img_wrap::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/icon-map-pin.svg");
+    background-position: center center;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    top: 31.5%;
+    left: 43%;
+    z-index: 99;
+    width: 66px;
+    height: 100.801px; }
 
 .contacts__write_us {
   display: block;
