@@ -29,13 +29,70 @@
 }
 
 .form__fieldset_name {
-  margin-top: 45px;
+  margin-top: 40px;
+
+  .form__label {
+    margin-top: 22px;
+  }
+
+  .form__label:first-of-type {
+    margin-top: 30px;
+  }
+
+  .form__input_name {
+    margin-top: 20px;
+  }
 }
 
 .form__fieldset_tel,
 .form__fieldset_mail,
 .form__fieldset_textarea {
-  margin-top: 35px;
+  margin-top: 30px;
+}
+
+.form__fieldset_tel {
+  .form__fieldset_inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__input_name {
+    margin-top: 10px;
+    padding-bottom: 0;
+    display: inline-block;
+    width: 225px;
+    outline: none;
+  }
+
+  .form__icon {
+    display: inline-block;
+    width: 34.829px;
+    margin-top: 15px;
+    border-bottom: 2px solid #444444;
+    padding-bottom: 15px;
+  }
+}
+
+.form__fieldset_mail {
+  .form__fieldset_inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__input_name {
+    margin-top: 10px;
+    padding-bottom: 0;
+    display: inline-block;
+    outline: none;
+  }
+
+  .form__icon {
+    display: inline-block;
+    width: 44.829px;
+    margin-top: 20px;
+    border-bottom: 2px solid #444444;
+    padding-bottom: 10px;
+  }
 }
 
 .form__fieldset {
@@ -157,7 +214,7 @@
   padding: 0;
   border: 0;
   border-bottom: 2px solid #000000;
-  padding-left: 63px;
+  padding-bottom: 15px;
 
   &:hover,
   &:active,
@@ -167,21 +224,18 @@
 
   &:hover + .form__icon {
     fill: #62d1ba;
+    border-color: #62d1ba;
   }
 
   &:active + .form__icon {
     fill: #62d1ba;
+    border-color: #62d1ba;
   }
 
   &:focus + .form__icon {
     fill: #62d1ba;
+    border-color: #62d1ba;
   }
-}
-
-.form__icon {
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .form__input_name::placeholder {
