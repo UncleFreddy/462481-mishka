@@ -269,7 +269,7 @@
     padding: 0;
     font-size: 17px;
     width: 40%;
-    height: 128px;
+    height: 143px;
     background-color: transparent;
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
@@ -283,30 +283,52 @@
               align-items: center; }
     .header__site_menu .header__item_catalog {
       padding-right: 0;
-      padding-left: 111px;
-      width: 58.5%;
+      padding-left: 99px;
+      width: 58%;
       height: 89px;
       border-right: 1px solid #ececec; }
     .header__site_menu .header__link_catalog {
       width: 100%; }
     .header__site_menu .header__item_order {
-      width: 41.5%;
-      height: 89px; }
-    .header__site_menu .header__item_order {
+      width: 42%;
+      height: 89px;
+      padding-left: 34px; }
+    .header__site_menu .header__new {
+      font-size: 15px;
+      line-height: 24px;
+      padding-left: 99px;
+      background-color: #f9f9f9;
+      border-top: 1px solid #ececec;
+      height: 55px;
+      width: 58%; }
+    .header__site_menu .header__sale {
+      font-size: 15px;
+      line-height: 24px;
+      background-color: #f9f9f9;
+      border-top: 1px solid #ececec;
+      height: 55px;
+      width: 42%;
       padding-left: 34px; }
   .header__logo_link {
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 14px;
+    padding-top: 6px;
     width: 20%;
-    padding: 0;
     height: 89px;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
-            order: 1; }
+            order: 1;
+    -webkit-box-shadow: 0 1px 0 0 #ececec, 0 55px 0 0 #f9f9f9;
+            box-shadow: 0 1px 0 0 #ececec, 0 55px 0 0 #f9f9f9; }
   .header__logo_img {
     width: 149px;
     height: auto; }
@@ -314,4 +336,8 @@
     width: 40%;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
-            order: 2; } }
+            order: 2; }
+    .header__user_menu .header__item_cart {
+      margin-right: 85px; }
+    .header__user_menu .header__delivery {
+      padding-right: 85px; } }
