@@ -70,6 +70,7 @@
     margin-top: 15px;
     border-bottom: 2px solid #444444;
     padding-bottom: 15px;
+    fill: rgba(#444444, 0.2);
   }
 }
 
@@ -92,6 +93,7 @@
     margin-top: 20px;
     border-bottom: 2px solid #444444;
     padding-bottom: 10px;
+    fill: rgba(#444444, 0.2);
   }
 }
 
@@ -114,11 +116,18 @@
   }
 }
 
+.form__fieldset_mail {
+  &::before {
+    width: 180px;
+  }
+}
+
 .form__legend {
   font-weight: bold;
   font-size: 17px;
   line-height: 16px;
   color: #63d1bb;
+  text-transform: uppercase;
 }
 
 .form__input {
@@ -246,11 +255,23 @@
 }
 
 .form__textarea {
+  margin-top: 27px;
   border: 2px solid #444444;
+  resize: none;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.form__textarea::placeholder {
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
 }
 
 .form__requaried {
-  margin-top: 15px;
+  display: block;
+  margin-top: 18px;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;

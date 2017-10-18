@@ -4,6 +4,9 @@
   margin-top: 75px;
   background-color: #f1f1f1; }
 
+.page__footer_cart {
+  margin-top: 55px; }
+
 .page__footer_wrap {
   min-height: 160px;
   padding: 0 30px;
