@@ -91,24 +91,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .page__main {
-    position: relative;
-  }
-
   .home {
     position: relative;
-    width: 100vw;
+    width: 100%;
   }
 
   .home__wrap {
     background-image: url("../img/hero-tablet@1x.jpg");
     background-size: 172%;
-    background-position: 50% 0;
-    min-height: 755px;
+    background-position: 50% -40px;
+    min-height: 715px;
     width: 668px;
     margin: 0 auto;
     position: relative;
     background-color: #fafafa;
+    padding-top: 43px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/hero-tablet@2x.jpg");
@@ -119,9 +116,7 @@
     font-size: 43px;
     line-height: 50px;
     width: auto;
-    margin-top: 18px;
-    position: relative;
-    top: 135px;
+    margin-bottom: 443px;
   }
 
   .home__inner {
@@ -143,7 +138,6 @@
     &:hover {
       transform: translateY(-5px);
       height: 130px;
-      border-radius: 5.5%;
     }
   }
 
@@ -174,6 +168,8 @@
   .home__img {
     margin-left: 51%;
     transition: 0.7s;
+    height: 61px;
+    width: auto;
   }
 
   .home__separator {
@@ -191,23 +187,18 @@
 }
 
 @media screen and (min-width: 1250px) {
-  .page__main {
-    position: relative;
-    width: 100%;
-  }
-
   .home {
     width: 100%;
-    margin: 0 auto;
   }
 
   .home__wrap {
-    min-height: 755px;
+    min-height: 707px;
     width: 1050px;
     margin: 0 auto;
     background-image: url("../img/hero-desktop@1x.jpg");
     background-size: 117%;
-    background-position: 50% -25px;
+    background-position: 50% -50px;
+    height: auto;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/hero-desktop@2x.jpg");
@@ -218,8 +209,7 @@
     font-size: 53px;
     line-height: 57px;
     width: auto;
-    position: relative;
-    top: 136px;
+    margin-bottom: 430px;
   }
 
   .home__inner {
