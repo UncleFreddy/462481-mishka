@@ -79,11 +79,12 @@
 
 @media screen and (min-width: 768px) {
   .contacts {
-    margin-top: 145px;
+    margin: 0;
+    padding-top: 60px;
   }
 
   .contacts__wrap {
-    width: 678px;
+    width: 768px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +97,7 @@
       width: 47px;
       height: 82px;
       top: -15px;
-      right: 0;
+      right: 53px;
       background-image: url("../img/icon-flag.svg");
       background-repeat: no-repeat;
       background-size: 47px 82px;
@@ -106,39 +107,39 @@
 
   .contacts__title {
     width: 100%;
-    padding: 0;
+    padding: 0 45px;
     font-size: 43px;
     line-height: 50px;
-    margin-left: 10px;
   }
 
   .contacts__email {
-    padding: 0;
-    margin-top: 50px;
+    padding: 0 0 0 50px;
+    margin-top: 49px;
     font-size: 17px;
-    width: 49%;
-    margin-left: 12px;
+    width: 50%;
   }
 
   .contacts__adress {
-    width: 45%;
+    width: 50%;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 49px;
     font-size: 17px;
   }
 
-  .contackts__date {
-    padding: 0;
-    margin: 0;
-    margin-left: 25px;
+  .contacts__date {
+    margin-left: 20px;
   }
 
   .contacts__img_wrap {
-    margin-top: 78px;
     width: 768px;
-    transform: scale(1.105);
     height: 410px;
-    overflow: hidden;
+    margin: 55px 0 0 0;
+    position: relative;
+
+    &::before {
+      top: 34%;
+      left: 47.3%;
+    }
   }
 
   .contacts__img {
@@ -147,29 +148,31 @@
   }
 
   .contacts__write_us {
-    margin-top: 44px;
-    margin-left: 232px;
+    width: 231px;
+    margin: 0 auto;
+    margin-top: 67px;
     padding: 14px 39px;
   }
 }
 
 @media screen and (min-width: 1250px) {
   .contacts {
-    margin-top: 220px;
+    padding-top: 138px;
+    width: 100%;
   }
 
   .contacts__wrap {
     width: 1050px;
     margin: 0 auto;
-    padding-left: 175px;
+    padding-left: 170px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     position: relative;
 
     &::before {
-      top: -2px;
-      left: 71px;
+      top: -3px;
+      left: 64px;
     }
   }
 
@@ -178,7 +181,6 @@
     padding: 0;
     font-size: 53px;
     line-height: 70px;
-    margin-left: 3px;
   }
 
   .contacts__email {
@@ -207,23 +209,13 @@
     position: relative;
     margin-top: -423px;
     margin-left: 357px;
-    transform: scale(1);
     width: 525px;
     height: 457px;
-    overflow: hidden;
     order: 1;
 
     &::before {
-      position: absolute;
-      content: "";
-      background-image: url("../img/icon-map-pin.svg");
-      background-position: center center;
-      background-size: auto auto;
-      background-repeat: no-repeat;
-      top: 0;
-      left: 0;
-      width: 66px;
-      height: 100.801px;
+      top: 32%;
+      left: 45%;
     }
   }
 
