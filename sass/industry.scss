@@ -1,6 +1,7 @@
 .industry {
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 .industry__title {
@@ -59,4 +60,47 @@
   box-sizing: border-box;
   display: inline-block;
   vertical-align: baseline;
+}
+
+@media screen and (min-width: 768px) {
+  .industry__wrap {
+    width: 668px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .industry__inner {
+    width: 100%;
+    order: 0;
+    margin-bottom: 37px;
+  }
+
+  .industry__img {
+    width: 666px;
+    height: auto;
+  }
+
+  .industry__title {
+    padding: 0;
+    order: 1;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 105px;
+    background-position: 40px center;
+  }
+
+  .industry__text {
+    order: 2;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 32px;
+    padding: 0 40px;
+  }
+
+  .industry__link {
+    order: 3;
+    margin: 0 40px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+  }
 }
