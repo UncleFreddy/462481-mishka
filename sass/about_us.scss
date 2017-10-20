@@ -67,13 +67,12 @@
 
 @media screen and (min-width: 768px) {
   .about_us {
-    margin-top: -27px;
+    padding-top: 51px;
   }
 
   .about_us__wrap {
-    width: 668px;
+    width: 675px;
     margin: 0 auto;
-    padding: 0;
   }
 
   .about_us__title {
@@ -86,7 +85,7 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    width: 668px;
+    width: 100%;
   }
 
   .about_us__item {
@@ -97,8 +96,7 @@
     background-repeat: no-repeat;
     padding-top: 55px;
     margin-top: 28px;
-    width: 324px;
-    margin-left: 10px;
+    width: 50%;
 
     &_eco {
       order: 1;
@@ -134,13 +132,12 @@
 
 @media screen and (min-width: 1250px) {
   .about_us {
-    margin-top: 205px;
+    padding-top: 60px;
   }
 
   .about_us__wrap {
-    width: 668px;
+    width: 705px;
     margin: 0 auto;
-    padding: 0;
   }
 
   .about_us__title {
@@ -151,11 +148,10 @@
   .about_us__list {
     margin-top: 17px;
     width: 700px;
-    margin-left: -7px;
   }
 
   .about_us__item {
-    width: 350px;
+    width: 50%;
     margin-left: 0;
   }
 }
