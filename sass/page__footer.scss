@@ -5,16 +5,16 @@
   background-color: #f1f1f1;
 }
 
-.page__footer_cart {
-  margin-top: 55px;
-}
-
 .page__footer_wrap {
   min-height: 160px;
   padding: 0 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.page__footer_cart {
+  margin-top: 55px;
 }
 
 .footer__social {
@@ -107,10 +107,23 @@
     margin: 0;
   }
 
+  .footer__logo_img {
+    width: 102px;
+    height: auto;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
+
   .footer__social {
     margin: 0;
     width: 142px;
-    margin-left: 183px;
+    margin-left: 159px;
     margin-right: auto;
   }
 
@@ -135,10 +148,9 @@
 @media screen and (min-width: 1250px) {
   .footer__wrap {
     width: 1050px;
-    padding-bottom: 20px;
   }
 
   .footer__social {
-    margin-left: 374px;
+    margin-left: 350px;
   }
 }
