@@ -68,7 +68,8 @@
 @media screen and (min-width: 768px) {
   .contacts {
     margin: 0;
-    padding-top: 60px; }
+    padding-top: 60px;
+    margin-bottom: 91px; }
   .contacts__wrap {
     width: 768px;
     margin: 0 auto;
@@ -129,7 +130,8 @@
 @media screen and (min-width: 1250px) {
   .contacts {
     padding-top: 138px;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 105px; }
   .contacts__wrap {
     width: 1050px;
     margin: 0 auto;

@@ -11,7 +11,7 @@
   <header class="page__header">
     <div class="header__wrap">
       <nav class="main_nav">
-        <a href="index.html" class="header__logo_link">
+        <a href="index.html" class="header__logo_link header__logo_link--catalog">
           <picture class="header__picture">
             <source media="(min-width: 1250px)" srcset="img/logo-desktop.svg">
             <source media="(min-width: 678px)" srcset="img/logo-tablet.svg">
@@ -23,17 +23,17 @@
           <svg class="menu_open" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="19.958px" height="14px" viewBox="0 0 19.958 14"><rect fill="#231F20" width="19.958" height="2"/><rect y="6" fill="#231F20" width="19.958" height="2"/><rect y="12" fill="#231F20" width="19.958" height="2"/></svg>
           <svg class="menu_close" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20.514px" height="20.512px" viewBox="0 0 20.514 20.512"><polygon fill="#231F20" points="20.513,1.414 19.099,0 10.256,8.842 1.414,0 0,1.414 8.842,10.256 0,19.098 1.414,20.512 10.256,11.67 19.099,20.512 20.513,19.098 11.671,10.256"/></svg>
         </label>
-        <ul class="header__site_menu header__menu">
+        <ul class="header__site_menu header__menu header__site_menu--catalog">
           <li class="header__item_catalog header__item">
             <a class="header__link">Каталог товаров</a>
           </li>
           <li class="header__item_order header__item">
             <a href="cart.html" class="header__link">Вязание на заказ</a>
           </li>
-          <li class="header__item header__new">
+          <li class="header__item header__new header__new--catalog">
             <a href="#" class="header__link header__bottom">Новые поступления</a>
           </li>
-          <li class="header__item header__sale">
+          <li class="header__item header__sale header__sale--catalog">
             <a href="#" class="header__link header__bottom">Распродажа</a>
           </li>
         </ul>
@@ -52,60 +52,74 @@
               </div>
             </a>
           </li>
-          <li class="header__item header__delivery"><span class="header__link_span">Бесплатная доставка по России</span></li>
+          <li class="header__item header__delivery header__delivery--mod"><span class="header__link_span">Бесплатная доставка по России</span></li>
         </ul>
       </nav>
     </div>
   </header>
     <main class="page__main">
       <section class="catalog">
-        <div class="catalog__title_wrap">
-          <h1 class="catalog__title">Каталог товаров</h1>
+        <div class="catalog__wrap">
+          <div class="catalog__title_wrap">
+            <h1 class="catalog__title">Каталог товаров</h1>
+          </div>
+          <ul class="catalog__list">
+            <li class="catalog__item">
+              <div class="catalog__img_wrap">
+                <picture class="catalog__picture">
+                  <source media="(min-width: 1250px)" srcset="img/photo-hare-desctop@1x.jpg, img/photo-hare-desctop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/photo-hare-tablet@1x.jpg, img/photo-hare-tablet@2x.jpg 2x">
+                  <img src="img/photo-hare-mobile@1x.jpg" alt="" class="catalog__img">
+                </picture>
+              </div>
+              <div class="catalog__spec_wrap">
+                <h3 class="catalog__subtitle">Зайчик-попрыгайчик</h3>
+                <span class="catalog__spec">Рост 30 см, вес 200 г</span>
+                <span class="catalog__price">1 200 руб.
+                  <a href="#" class="catalog__cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20.294px" height="18.849px" viewBox="264.205 370.961 20.294 18.849"><path class="catalog__icon" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/></svg>
+                  </a>
+                </span>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="catalog__img_wrap">
+                <picture class="catalog__picture">
+                  <source media="(min-width: 1250px)" srcset="img/photo-bowl-desctop@1x.jpg, img/photo-bowl-desctop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/photo-bowl-tablet@1x.jpg, img/photo-bowl-tablet@2x.jpg 2x">
+                  <img src="img/photo-bowl-mobile@1x.jpg" alt="" class="catalog__img">
+                </picture>
+              </div>
+              <div class="catalog__spec_wrap">
+                <h3 class="catalog__subtitle">Корзинка для белья</h3>
+                <span class="catalog__spec">Диаметр 15 см, высота 10 см</span>
+                <span class="catalog__price">690 руб.
+                  <a href="#" class="catalog__cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20.294px" height="18.849px" viewBox="264.205 370.961 20.294 18.849"><path class="catalog__icon" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/></svg>
+                  </a>
+                </span>
+              </div>
+            </li>
+            <li class="catalog__item">
+              <div class="catalog__img_wrap">
+                <picture class="catalog__picture">
+                  <source media="(min-width: 1250px)" srcset="img/photo-toys-desctop@1x.jpg, img/photo-toys-desctop@2x.jpg 2x">
+                  <source media="(min-width: 768px)" srcset="img/photo-toys-tablet@1x.jpg, img/photo-toys-tablet@2x.jpg 2x">
+                  <img src="img/photo-toys-mobile@1x.jpg" alt="" class="catalog__img">
+                </picture>
+              </div>
+              <div class="catalog__spec_wrap">
+                <h3 class="catalog__subtitle">Большая корзинка<br> для игрушек</h3>
+                <span class="catalog__spec catalog__spec_cart">Диаметр 30 см, высота 30 см</span>
+                <span class="catalog__price">1 500 руб.
+                  <a href="#" class="catalog__cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20.294px" height="18.849px" viewBox="264.205 370.961 20.294 18.849"><path class="catalog__icon" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/></svg>
+                  </a>
+                </span>
+              </div>
+            </li>
+          </ul>
         </div>
-        <ul class="catalog__list">
-          <li class="catalog__item">
-            <div class="catalog__img_wrap">
-              <img src="img/photo-hare-mobile@1x.jpg" alt="" class="catalog__img" width="258" height="195">
-            </div>
-            <div class="catalog__spec_wrap">
-              <h3 class="catalog__subtitle">Зайчик-попрыгайчик</h3>
-              <span class="catalog__spec">Рост 30 см, вес 200 г</span>
-              <span class="catalog__price">1 200 руб.
-                <a href="#" class="catalog__cart">
-                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20.294px" height="18.849px" viewBox="264.205 370.961 20.294 18.849"><path class="catalog__icon" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/></svg>
-                </a>
-              </span>
-            </div>
-          </li>
-          <li class="catalog__item">
-            <div class="catalog__img_wrap">
-              <img src="img/photo-bowl-mobile@1x.jpg" alt="" class="catalog__img" width="258" height="195">
-            </div>
-            <div class="catalog__spec_wrap">
-              <h3 class="catalog__subtitle">Корзинка для белья</h3>
-              <span class="catalog__spec">Диаметр 15 см, высота 10 см</span>
-              <span class="catalog__price">690 руб.
-                <a href="#" class="catalog__cart">
-                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20.294px" height="18.849px" viewBox="264.205 370.961 20.294 18.849"><path class="catalog__icon" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/></svg>
-                </a>
-              </span>
-            </div>
-          </li>
-          <li class="catalog__item">
-            <div class="catalog__img_wrap">
-              <img src="img/photo-toys-mobile@1x.jpg" alt="" class="catalog__img" width="258" height="195">
-            </div>
-            <div class="catalog__spec_wrap">
-              <h3 class="catalog__subtitle">Большая корзинка<br> для игрушек</h3>
-              <span class="catalog__spec">Диаметр 30 см, высота 30 см</span>
-              <span class="catalog__price">1 500 руб.
-                <a href="#" class="catalog__cart">
-                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20.294px" height="18.849px" viewBox="264.205 370.961 20.294 18.849"><path class="catalog__icon" d="M283.75,378.19h-3.151l-3.407-6.814c-0.185-0.37-0.634-0.52-1.006-0.335 c-0.371,0.186-0.521,0.636-0.335,1.006l3.071,6.143h-9.138l3.072-6.143c0.185-0.371,0.035-0.821-0.335-1.006 c-0.37-0.185-0.821-0.035-1.006,0.335l-3.407,6.814h-3.151c-0.414,0-0.75,0.336-0.75,0.75s0.336,0.75,0.75,0.75h0.157l0.855,2.991 c-0.187,0.137-0.316,0.347-0.316,0.595c0,0.396,0.309,0.71,0.697,0.739l1.656,5.795h12.697l1.656-5.795 c0.388-0.028,0.698-0.344,0.698-0.739c0-0.249-0.129-0.459-0.316-0.596l0.854-2.991h0.157c0.414,0,0.75-0.336,0.75-0.75 S284.164,378.19,283.75,378.19z M279.569,388.311h-10.433l-1.224-4.284h12.881L279.569,388.311z M281.222,382.526h-13.739 l-0.81-2.836h15.359L281.222,382.526z"/></svg>
-                </a>
-              </span>
-            </div>
-          </li>
-        </ul>
       </section>
       <section class="industry">
         <div class="industry__wrap">

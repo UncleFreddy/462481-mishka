@@ -252,6 +252,10 @@
     font-size: 15px;
     line-height: 24px;
 
+    &--mod {
+      background-color: #f1f1f1;
+    }
+
 
     .header__link_span {
       margin-left: auto;
@@ -273,6 +277,10 @@
     padding-left: 40px;
     justify-content: initial;
     order: 1;
+
+    &--catalog {
+      background-color: #f1f1f1;
+    }
 
     .header__item_catalog {
       width: 177px;
@@ -332,6 +340,10 @@
       border-top: 1px solid #ececec;
       height: 55px;
       width: 58%;
+
+      &--catalog {
+        background-color: #f1f1f1;
+      }
     }
 
     .header__sale {
@@ -342,6 +354,10 @@
       height: 55px;
       width: 42%;
       padding-left: 34px;
+
+      &--catalog {
+        background-color: #f1f1f1;
+      }
     }
   }
 
@@ -358,6 +374,12 @@
     box-shadow:
       0 1px 0 0 #ececec,
       0 55px 0 0 #f9f9f9;
+
+    &--catalog {
+      box-shadow:
+        0 1px 0 0 #ececec,
+        0 55px 0 0 #f1f1f1;
+    }
   }
 
   .header__logo_img {
