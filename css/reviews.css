@@ -66,7 +66,12 @@
 
 @media screen and (min-width: 768px) {
   .reviews {
-    margin-top: 85px; }
+    margin-top: 85px;
+    background-image: url("../img/bg-zigzag-line.svg");
+    background-size: auto 17px;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    min-height: 540px; }
   .reviews__wrap {
     padding: 0;
     display: -webkit-box;
@@ -74,7 +79,7 @@
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 748px;
+    width: 768px;
     margin: 0 auto;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -129,7 +134,8 @@
 
 @media screen and (min-width: 1250px) {
   .reviews {
-    margin-top: 98px; }
+    margin-top: 98px;
+    background-size: auto 23px; }
   .reviews__wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -141,13 +147,12 @@
   .reviews__title {
     font-size: 53px;
     line-height: 57px;
-    margin-top: 70px;
+    margin-top: 65px;
     margin-left: -178px; }
   .reviews__write {
     position: relative;
     width: 175px;
     height: 52px;
-    margin-top: 78px;
     margin-left: auto; }
   .reviews__text {
     margin-top: -286px;
