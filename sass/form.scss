@@ -1,3 +1,8 @@
+
+.form {
+  padding: 0 30px;
+}
+
 .main__title_wrap {
   background-color: #f1f1f1;
   height: 176px;
@@ -35,7 +40,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .form__fieldset_name {
   margin-top: 40px;
 
@@ -253,6 +257,12 @@
   }
 }
 
+.form__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .form__input_name::placeholder {
   font-weight: normal;
   font-size: 17px;
@@ -274,7 +284,6 @@
   line-height: 18px;
   letter-spacing: 0.02em;
 }
-
 .form__requaried {
   display: block;
   margin-top: 18px;

@@ -139,6 +139,26 @@
   }
 }
 
+.header__link_search {
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 31px;
+  padding-right: 92px;
+}
+
+.header__link_inner {
+  margin-left: -15px;
+
+  svg {
+    margin-top: 10px;
+  }
+}
+
+.header__link_span {
+  margin-left: 20px;
+}
+
 .header__delivery {
   display: none;
 }
@@ -228,7 +248,7 @@
     border: 0;
     height: 89px;
   }
-
+  
   .header__link_inner {
     padding-left: 31px;
     padding-top: 4px;
@@ -398,5 +418,10 @@
     .header__delivery {
       padding-right: 85px;
     }
+  }
+
+  .header__delivery {
+    position: relative;
+    left: 5px;
   }
 }
