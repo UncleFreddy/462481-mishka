@@ -161,7 +161,7 @@
     width: 100%;
     height: 25px;
     background-image: url("../img/bg-zigzag-fill.svg");
-    background-size: 1250px 34px cover;
+    background-size: auto 34px;
     background-position: -5px left;
     background-repeat: repeat-x;
     z-index: 1; } }
