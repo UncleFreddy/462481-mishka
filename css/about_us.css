@@ -1,23 +1,19 @@
 .about_us {
-  width: 100%;
-}
+  width: 100%; }
 
 .about_us__wrap {
   width: 260px;
   margin: 0 auto;
-  position: relative;
-}
+  position: relative; }
 
 .about_us__title {
   font-size: 25px;
   line-height: 30px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .about_us__list {
   margin-top: 30px;
-  list-style: none;
-}
+  list-style: none; }
 
 .about_us__item {
   min-height: 95px;
@@ -27,67 +23,49 @@
   background-position: top left;
   background-repeat: no-repeat;
   padding-top: 55px;
-  margin-top: 28px;
-
-  &_eco {
+  margin-top: 28px; }
+  .about_us__item_eco {
     background-image: url("../img/icon-feature-flower.svg");
     background-size: 33px 38px;
-    background-position: 3% 0%;
-  }
-
-  &_price {
+    background-position: 3% 0%; }
+  .about_us__item_price {
     background-image: url("../img/icon-feature-money.svg");
-    background-size: 47px 27px;
-  }
-
-  &_like {
+    background-size: 47px 27px; }
+  .about_us__item_like {
     background-image: url("../img/icon-feature-heart.svg");
     background-size: 34px 27px;
-    background-position: 3% 9%;
-  }
-
-  &_hand {
+    background-position: 3% 9%; }
+  .about_us__item_hand {
     background-image: url("../img/icon-feature-ball.svg");
     background-size: 35px 34px;
-    background-position: 2% 5%;
-  }
-
-  &_support {
+    background-position: 2% 5%; }
+  .about_us__item_support {
     background-image: url("../img/icon-feature-rocket.svg");
     background-size: 55px 23px;
-    background-position: 0 5%;
-  }
-
-  &_bag {
+    background-position: 0 5%; }
+  .about_us__item_bag {
     background-image: url("../img/icon-feature-gift.svg");
     background-size: 33px 32px;
-    background-position: 1% 5%;
-  }
-}
+    background-position: 1% 5%; }
 
 @media screen and (min-width: 768px) {
   .about_us {
-    padding-top: 51px;
-  }
-
+    padding-top: 51px; }
   .about_us__wrap {
     width: 675px;
-    margin: 0 auto;
-  }
-
+    margin: 0 auto; }
   .about_us__title {
     font-size: 43px;
-    line-height: 50px;
-  }
-
+    line-height: 50px; }
   .about_us__list {
     margin-top: 22px;
     list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%; }
   .about_us__item {
     min-height: 95px;
     font-size: 20px;
@@ -96,62 +74,50 @@
     background-repeat: no-repeat;
     padding-top: 55px;
     margin-top: 28px;
-    width: 50%;
-
-    &_eco {
-      order: 1;
-    }
-
-    &_price {
+    width: 50%; }
+    .about_us__item_eco {
+      -webkit-box-ordinal-group: 2;
+          -ms-flex-order: 1;
+              order: 1; }
+    .about_us__item_price {
       margin-top: 56px;
-      order: 3;
-    }
-
-    &_like {
+      -webkit-box-ordinal-group: 4;
+          -ms-flex-order: 3;
+              order: 3; }
+    .about_us__item_like {
       margin-top: 56px;
       background-position: 2% 10%;
-      order: 5;
-    }
-
-    &_hand {
-      order: 2;
-    }
-
-    &_support {
+      -webkit-box-ordinal-group: 6;
+          -ms-flex-order: 5;
+              order: 5; }
+    .about_us__item_hand {
+      -webkit-box-ordinal-group: 3;
+          -ms-flex-order: 2;
+              order: 2; }
+    .about_us__item_support {
       margin-top: 56px;
       background-position: 0 5%;
-      order: 4;
-    }
-
-    &_bag {
+      -webkit-box-ordinal-group: 5;
+          -ms-flex-order: 4;
+              order: 4; }
+    .about_us__item_bag {
       margin-top: 56px;
-      order: 6;
-    }
-  }
-}
+      -webkit-box-ordinal-group: 7;
+          -ms-flex-order: 6;
+              order: 6; } }
 
 @media screen and (min-width: 1250px) {
   .about_us {
-    padding-top: 60px;
-  }
-
+    padding-top: 60px; }
   .about_us__wrap {
     width: 705px;
-    margin: 0 auto;
-  }
-
+    margin: 0 auto; }
   .about_us__title {
     font-size: 53px;
-    line-height: 57px;
-  }
-
+    line-height: 57px; }
   .about_us__list {
     margin-top: 17px;
-    width: 700px;
-  }
-
+    width: 700px; }
   .about_us__item {
     width: 50%;
-    margin-left: 0;
-  }
-}
+    margin-left: 0; } }
